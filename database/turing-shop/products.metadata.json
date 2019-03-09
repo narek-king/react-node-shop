@@ -1,0 +1,71 @@
+{
+    "options": {},
+    "indexes": [
+        {
+            "v": 2,
+            "key": {
+                "_id": 1
+            },
+            "name": "_id_",
+            "ns": "turing-shop.products"
+        },
+        {
+            "v": 2,
+            "key": {
+                "slug": 1
+            },
+            "name": "slug_1",
+            "ns": "turing-shop.products"
+        },
+        {
+            "v": 2,
+            "key": {
+                "enabled": 1
+            },
+            "name": "enabled_1",
+            "ns": "turing-shop.products"
+        },
+        {
+            "v": 2,
+            "key": {
+                "category_id": 1
+            },
+            "name": "category_id_1",
+            "ns": "turing-shop.products"
+        },
+        {
+            "v": 2,
+            "key": {
+                "sku": 1
+            },
+            "name": "sku_1",
+            "ns": "turing-shop.products"
+        },
+        {
+            "v": 2,
+            "key": {
+                "attributes.name": 1,
+                "attributes.value": 1
+            },
+            "name": "attributes.name_1_attributes.value_1",
+            "ns": "turing-shop.products"
+        },
+        {
+            "v": 2,
+            "key": {
+                "_fts": "text",
+                "_ftsx": 1
+            },
+            "name": "textIndex",
+            "ns": "turing-shop.products",
+            "default_language": "english",
+            "weights": {
+                "description": 1,
+                "name": 1
+            },
+            "language_override": "language",
+            "textIndexVersion": 3
+        }
+    ],
+    "uuid": "d1239d436b534c0e95b435d481a90b28"
+}
